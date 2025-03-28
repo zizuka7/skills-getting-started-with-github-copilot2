@@ -74,6 +74,18 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.activity-card ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: disc;
+  color: #555;
+}
+
+.activity-card ul li {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
@@ -134,6 +146,95 @@ button:hover {
 
 .hidden {
   display: none;
+}
+
+/* Participant Info Section */
+.participant-info {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.participant-info h4 {
+  margin-bottom: 10px;
+  color: #1a237e;
+}
+
+.participant-info p {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+/* Dark Mode Toggle */
+.dark-mode-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #1a237e;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.dark-mode-toggle:hover {
+  background-color: #3949ab;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode header {
+  background-color: #333;
+}
+
+body.dark-mode section {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+body.dark-mode .activity-card {
+  background-color: #2c2c2c;
+  border-color: #444;
+}
+
+body.dark-mode .participant-info {
+  background-color: #2c2c2c;
+  border-color: #444;
+}
+
+body.dark-mode button {
+  background-color: #3949ab;
+}
+
+body.dark-mode button:hover {
+  background-color: #5c6bc0;
+}
+
+body.dark-mode .success {
+  background-color: #2e7d32;
+  color: #e8f5e9;
+  border-color: #66bb6a;
+}
+
+body.dark-mode .error {
+  background-color: #c62828;
+  color: #ffebee;
+  border-color: #ef5350;
+}
+
+body.dark-mode .info {
+  background-color: #0c5460;
+  color: #d1ecf1;
+  border-color: #4fc3f7;
 }
 
 footer {
